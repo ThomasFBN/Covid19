@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class FileHandler {
-    public ArrayList<Covid19Data> readCSVFile(String filePath) {
+    public ArrayList<Covid19Data> readFromFile(String filePath) {
         ArrayList<Covid19Data> covidDataList = new ArrayList<>();
 
         try {
